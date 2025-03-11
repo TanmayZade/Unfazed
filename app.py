@@ -144,8 +144,8 @@ def report():
 def send_report_email(user_email, pincode, latitude, longitude):
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    smtp_user = "tanmayzade87@gmail.com"  # Your email address
-    smtp_password = "taixfuxzovbxsgoi"  # App-specific password
+    smtp_user = "edit"  # Your email address
+    smtp_password = "edit"  # App-specific password
 
     msg = MIMEMultipart()
     msg['From'] = smtp_user
@@ -304,8 +304,8 @@ def update_status():
 def send_email(user_email, user_name, new_status):
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    smtp_user = "tanmayzade87@gmail.com"  # Your email address
-    smtp_password = "taixfuxzovbxsgoi"  # App-specific password
+    smtp_user = "edit"  # Your email address
+    smtp_password = "edit"  # App-specific password
 
     msg = MIMEMultipart()
     msg['From'] = smtp_user
