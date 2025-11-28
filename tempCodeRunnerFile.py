@@ -1,4 +1,4 @@
-API_KEY = "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"
+API_KEY = "process.env.GITHUB_TOKEN"
 
 @app.route('/report', methods=['POST'])
 def report():
