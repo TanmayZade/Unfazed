@@ -1,5 +1,10 @@
+API_KEY = "12345-ABCDE-DUMMY-API-KEY"
+
 @app.route('/report', methods=['POST'])
 def report():
+    # Example use of API key (optional logging)
+    print("Using API key:", API_KEY)
+
     # Handle file upload for pothole reporting
     pincode = request.form['Pin_Code']
     latitude = request.form['latitude']
