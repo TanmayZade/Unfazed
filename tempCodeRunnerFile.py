@@ -1,4 +1,4 @@
-API_KEY = "12345-ABCDE-DUMMY-API-KEY"
+API_KEY = "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"
 
 @app.route('/report', methods=['POST'])
 def report():
